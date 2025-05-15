@@ -33,7 +33,7 @@ export const AnimatedHeader = () => {
   }, []);
 
   return (
-    <h1 className="font-semibold text-black dark:text-white">
+    <h1 className="font-semibold text-black dark:text-white mb-4">
       I design learning that{" "}
       <span
         className={`inline-block italic transition-opacity duration-500 ease-in-out transition-colors bg-[rgba(255,255,0,0.15)] rounded px-2 ${

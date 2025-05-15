@@ -19,8 +19,8 @@ const Button: React.FC<ButtonProps> = ({ text, icon = "🎯" }) => (
 export const ButtonGrid = () => {
   return (
     <div className="flex flex-wrap gap-2">
-      <Button text="Curriculum Design" />
-      <Button text="E-Learning" icon="📱" />
+      <Button text="Articulate" />
+      <Button text="Adobe Creative Suite" icon="📱" />
       <Button text="LMS Integration" icon="🔄" />
       <Button text="Training Programs" icon="📚" />
       <Button text="Learning Analytics" icon="📊" />

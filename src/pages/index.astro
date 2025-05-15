@@ -1,3 +1,4 @@
+```astro
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
@@ -6,6 +7,7 @@ import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
+import { ButtonGrid } from "@components/ButtonGrid";
 
 const blog = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
@@ -37,6 +39,9 @@ const projects: CollectionEntry<"projects">[] = (
 
             Feel free to explore my portfolio below to see examples of my work and approach to instructional design.
           </article>
+          <div class="mt-8">
+            <ButtonGrid client:load />
+          </div>
         </section>
 
         <section class="animate space-y-6">
@@ -111,3 +116,4 @@ const projects: CollectionEntry<"projects">[] = (
     </aside>
   </Container>
 </Layout>
+```

@@ -37,8 +37,7 @@ export const AnimatedHeader = () => {
       I design learning that{" "}
       <span
         className={`inline-block italic transition-opacity duration-500 bg-[rgba(255,255,0,0.15)] rounded px-2 ${
-  isVisible ? "opacity-100" : "opacity-0"
-}`}
+    isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         {phrases[currentPhraseIndex]}

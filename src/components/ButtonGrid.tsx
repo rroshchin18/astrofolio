@@ -19,11 +19,7 @@ const Button: React.FC<ButtonProps> = ({ text, icon = "🎯" }) => (
 export const ButtonGrid = () => {
   return (
     <div className="flex flex-wrap gap-2">
-      <Button text="Articulate"  <img 
-            src="/profilepic.png" 
-            alt="Russell Roshchin" 
-            class="size-8 rounded-full object-cover"
-          />
+      <Button text="Articulate" icon={<img src="/icons/articulate.svg" alt="Articulate" className="w-5 h-5" />} />
       <Button text="Adobe Creative Suite" icon="📱" />
       <Button text="LMS" icon="🔄" />
       <Button text="Training Programs" icon="📚" />

@@ -21,7 +21,7 @@ export const ButtonGrid = () => {
     <div className="flex flex-wrap gap-2">
       <Button text="Articulate" />
       <Button text="Adobe Creative Suite" icon="📱" />
-      <Button text="LMS Integration" icon="🔄" />
+      <Button text="LMS" icon="🔄" />
       <Button text="Training Programs" icon="📚" />
       <Button text="Learning Analytics" icon="📊" />
       <Button text="Content Strategy" icon="📝" />

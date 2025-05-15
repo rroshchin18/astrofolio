@@ -20,7 +20,7 @@ export const ButtonGrid = () => {
   return (
     <div className="flex flex-wrap gap-2">
       <Button text="Articulate" icon={<img src="/articulate.jpeg" alt="Articulate" className="w-5 h-5" />} />
-      <Button text="Adobe Creative Suite" icon={<img src="/adobecs.png" alt="Articulate" className="w-5 h-5" />} />
+      <Button text="Adobe Creative Suite" icon={<img src="/adobecss.png" alt="Articulate" className="w-5 h-5" />} />
       <Button text="Adobe Creative Suite" icon="📱" />
       <Button text="LMS" icon="🔄" />
       <Button text="Training Programs" icon="📚" />

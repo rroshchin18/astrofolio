@@ -36,8 +36,8 @@ export const AnimatedHeader = () => {
     <h1 className="font-semibold text-black dark:text-white">
       I design learning that{" "}
       <span
-        className={`inline-block italic transition-opacity duration-500 ${
-          isVisible ? "opacity-100" : "opacity-0"
+        className={`inline-block italic transition-opacity duration-500 bg-yellow-100 rounded px-2 ${
+    isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         {phrases[currentPhraseIndex]}

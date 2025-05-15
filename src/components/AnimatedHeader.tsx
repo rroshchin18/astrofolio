@@ -27,7 +27,7 @@ export const AnimatedHeader = () => {
         setCurrentPhraseIndex((prev) => (prev + 1) % phrases.length);
         setIsVisible(true);
       }, 500); // Wait for fade out before changing text
-    }, 4000); // Change phrase every 4 seconds
+    }, 3000); // Change phrase every 4 seconds
 
     return () => clearInterval(interval);
   }, []);

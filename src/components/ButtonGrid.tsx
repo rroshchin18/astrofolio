@@ -21,7 +21,7 @@ export const ButtonGrid = () => {
     <div className="flex flex-wrap gap-2">
       <Button text="Articulate" icon={<img src="/articulate.jpeg" alt="Articulate" className="w-5 h-5" />} />
       <Button text="Adobe Creative Suite" icon={<img src="/adobecs.png" alt="Articulate" className="w-5 h-5" />} />
-      <Button text="Canva" icon={<img src="/canva.png" alt="Articulate" className="w-5 h-5" />} />
+      <Button text="Canva" icon={<img src="/canva.svg" alt="Articulate" className="w-5 h-5" />} />
       <Button text="Figma" icon={<img src="/adobecs.png" alt="Articulate" className="w-5 h-5" />} />
       <Button text="Bolt" icon={<img src="/adobecs.png" alt="Articulate" className="w-5 h-5" />} />
       <Button text="AWS" icon="📱" />
